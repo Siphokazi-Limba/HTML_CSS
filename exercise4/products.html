@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <style>
+        .carousel {
+            height: 90vh;
+        }
+
+        .carousel-item img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            max-height: 90vh;
+        }
+
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+
+        .card-img {
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">KAZE'S HAIR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://m.media-amazon.com/images/I/71BEm4WcdAL._AC_SX679_.jpg" class="d-block w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.ebayimg.com/thumbs/images/g/wNUAAOSwqEpiT7sN/s-l1200.jpg" class="d-block w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class=" container product-container pt-3">
+        <div class="card">
+            <img src="//img.kwcdn.com/product/fancy/4de33cd2-2cda-43fd-be94-2dd0d4aa7d9e.jpg?imageView2/2/w/800/q/70/format/webp"
+                class="card-img">
+            <div class="card-body">
+                <h5 class="card-title">Brazilian weave</h5>
+                <p class="card-text"> glueless weave
+                    <br>
+                    <strong>R 1 100,00</strong>
+                </p>
+                <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.fruugo.com/product/7/66/688564667_0340_0340.jpg"
+                class="card-img">
+            <div class="card-body">
+                <h5 class="card-title">Brazilian weave</h5>
+                <p class="card-text">glueless weave
+                    <br>
+                    <strong>R 2 800,00</strong>
+                </p>
+                <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/26c4a8c0dfb40f0afdfa151a032223b6.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+                class="card-img">
+            <div class="card-body">
+                <h5 class="card-title">Brazilian weave</h5>
+                <p class="card-text"> glueless weave
+                    <br>
+                    <strong>R 1 900,00</strong>
+                </p>
+                <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.kwcdn.com/product/fancy/6f137aaa-2b1d-450b-9d4f-fa915f5bf7eb.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+                class="card-img">
+            <div class="card-body">
+                <h5 class="card-title">Brazilian weave</h5>
+                <p class="card-text"> glueless weave
+                    <br>
+                    <strong>R 2 800,00</strong>
+                </p>
+                <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.kwcdn.com/product/fancy/66387870-d6f1-4f82-8846-4c1a5e2f3f92.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+                class="card-img">
+            <div class="card-body">
+                <h5 class="card-title">Brazilian weave</h5>
+                <p class="card-text"> glueless weave
+                    <br>
+                    <strong>R 2 000,00</strong>
+                </p>
+                <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/3f/31/31/3f313159c6322872175696ea6442b55b.jpg"
+                class="card-img">
+            <div class="card-body">
+                <h5 class="card-title">Brazilian weave</h5>
+                <p class="card-text"> glueless weave
+                    <br>
+                    <strong>R 2 100,00</strong>
+                </p>
+                <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.omgqueen.com/media/catalog/product/cache/124d514f0f69e77fe9821748ef3e7a01/b/t/btw02-2.jpg"
+                class="card-img">
+            <div class="card-body">
+                <h5 class="card-title">Brazilian weave</h5>
+                <p class="card-text"> glueless weave
+                    <br>
+                    <strong>R 3 100,00</strong>
+                </p>
+                <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://cdn4.volusion.store/jmcmq-rexnc/v/vspfiles/photos/out-shw-bc20-2.jpg?v-cache=1682664450"
+                class="card-img">
+            <div class="card-body">
+                <h5 class="card-title">Brazilian weave</h5>
+                <p class="card-text"> glueless weave
+                    <br>
+                    <strong>R 1 100,00</strong>
+                </p>
+                <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="text-center text-lg-start bg-light text muted">
+        <div class="text-center p-4">&copy; 2025 Kaze's Hair. All rights reserved.</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+        integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
